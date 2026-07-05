@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>お見積り | Gyokuto株式会社</title>
+  <meta name="description" content="Gyokuto株式会社のBPOサービスのお見積りフォーム。依頼内容、件数、希望納期をお知らせください。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="お見積り | Gyokuto株式会社">
+  <meta property="og:description" content="BPOサービスのお見積り依頼を承っています。">
+  <meta property="og:url" content="https://bpo.gyokuto-inc.com/estimate.html">
+  <link rel="canonical" href="https://bpo.gyokuto-inc.com/estimate.html">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="home.html"><span class="brand-text">Gyokuto株式会社</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="global-nav">Menu</button>
+    <nav class="global-nav" id="global-nav"><a href="services.html">サービス内容</a><a href="pricing.html">料金・見積</a><a href="flow.html">導入の流れ</a><a href="faq.html">FAQ</a><a href="contact.html">お問い合わせ</a><a class="nav-cta" href="estimate.html" aria-current="page">お見積り</a></nav>
+  </header>
+  <main>
+    <section class="page-hero">
+      <p class="eyebrow">Estimate</p>
+      <h1>お見積り</h1>
+      <p>依頼内容、件数、希望納期を分かる範囲でお知らせください。見積り精度を高めるため、必要に応じて30〜60分程度の面談をお願いする場合があります。</p>
+    </section>
+    <section class="section contact-layout">
+      <form class="contact-form" action="https://formsubmit.co/customer-support@gyokuto-inc.com" method="POST">
+        <input type="hidden" name="_subject" value="Gyokuto株式会社BPOサービス お見積り依頼">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://bpo.gyokuto-inc.com/thanks.html">
+        <label>会社名<input name="会社名" type="text" autocomplete="organization"></label>
+        <label>お名前<input name="お名前" type="text" autocomplete="name" required></label>
+        <label>メールアドレス<input name="メールアドレス" type="email" autocomplete="email" required></label>
+        <label>依頼内容<textarea name="依頼内容" rows="7" required placeholder="例：&#10;1. PDF資料から指定Excelフォーマットへの転記&#10;2. 既存顧客リストの表記統一と重複整理"></textarea></label>
+        <label>件数<input name="件数" type="text" placeholder="例：1. 120ページ、2. 800件"></label>
+        <label>希望納期<input name="希望納期" type="text" placeholder="例：8月末まで、毎月第5営業日まで"></label>
+        <p class="form-note">内容確認や品質確保の都合上、急すぎる納期には対応できない場合があります。余裕を持った納期でご相談ください。</p>
+        <label>備考<textarea name="備考" rows="4" placeholder="作業ルール、納品形式、共有可能な資料、面談可能な時間帯など"></textarea></label>
+        <button class="button primary" type="submit">送信する</button>
+        <p class="form-note">送信後、完了画面へ移動します。</p>
+      </form>
+      <aside class="contact-side">
+        <h2>見積り前に確認すること</h2>
+        <ul class="check-list compact">
+          <li>業務内容と成果物</li>
+          <li>件数、ページ数、対象データ量</li>
+          <li>希望する納品形式</li>
+          <li>作業ルールや確認基準</li>
+          <li>希望納期と優先度</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer"><div><strong>Gyokuto株式会社</strong><p>ルール化できるバックオフィス業務を、確かな品質で。</p></div><nav><a href="privacy.html">プライバシーポリシー</a><a href="company.html">会社概要</a><a href="contact.html">お問い合わせ</a></nav></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
